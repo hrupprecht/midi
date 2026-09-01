@@ -23,5 +23,6 @@ Kinotone,Ghosts,Microphone,Mic on/off,,34,,0,127,,,,,,,0-based,,0-64: Off; 65-12
 Kinotone,Ghosts,Other,Ignore MIDI clock,,51,,0,127,,,,,,,0-based,,0: Ignore MIDI clock; 1-127: Listen to MIDI clock
 Kinotone,Ghosts,Other,Ignore MIDI transport (start/stop),,52,,0,127,,,,,,,0-based,,0: Ignore MIDI transport; 1-127: Listen to MIDI transport
 Kinotone,Ghosts,Endless Loop,Clear endless loop,,60,,0,127,,,,,,,0-based,,0-64: False; 65-127: True
-Kinotone,Ghosts,Footswitches,Touch footswitch,,80,,0,127,,,,,,,0-based,,Endless Loop: Send 127 to advance state; all other Touch Modes: 0-64: Off; 65-127: On
+Kinotone,Ghosts,Footswitches,Touch footswitch (endless loop),,80,,127,127,,,,,,,0-based,,127: Advance state
+Kinotone,Ghosts,Footswitches,Touch footswitch (all other touch modes),,80,,0,127,,,,,,,0-based,,0-64: Off; 65-127: On
 Kinotone,Ghosts,Footswitches,Bypass footswitch,,81,,0,127,,,,,,,0-based,,0-64: Off; 65-127: On
