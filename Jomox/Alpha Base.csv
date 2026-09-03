@@ -61,7 +61,7 @@ Jomox,Alpha Base,Sample,Filter Cutoff,Filter cutoff frequency (low pass on HH),1
 Jomox,Alpha Base,Sample,Filter Resonance,Filter resonance amount,113,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter resonance
 Jomox,Alpha Base,Sample,Filter Hi Pass,High pass filter amount (only HH),114,,0,127,,,,,,,0-based,Channels 3-10,0~127: High pass amount
 Jomox,Alpha Base,Sample,Filter Envelope Amount,Amount of filter envelope applied to cutoff,115,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope depth
-Jomox,Alpha Base,Sample,Filter Mode,Selects the filter mode,116,,0,3,,,,,,,0-based,Channels 3-10,0-1 (HH); 0-3 (CLP-RID): Filter mode
+Jomox,Alpha Base,Sample,Filter Mode,Selects the filter mode,116,,0,3,,,,,,,0-based,"Channels 3-10; range 0-1 on HH, 0-3 on CLP-RID",0~3: Filter mode
 Jomox,Alpha Base,Sample,LFO Synchronization,LFO free run or retrigger on note,96,,0,1,,,,,,,0-based,Channels 3-10,0-1: LFO sync
 Jomox,Alpha Base,Sample,LFO Wave,Selects the LFO waveform,119,,0,63,,,,,,,0-based,Channels 3-10,0~63: LFO waveform select
 Jomox,Alpha Base,Sample,LFO Rate,LFO speed,122,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO speed
