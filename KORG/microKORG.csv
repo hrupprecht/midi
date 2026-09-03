@@ -44,5 +44,5 @@ KORG,microKORG,Mod FX,Mod FX LFO speed,,12,,0,127,,,,,,,0-based,,
 KORG,microKORG,Mod FX,Mod FX depth,,93,,0,127,,,,,,,0-based,,
 KORG,microKORG,Delay,Delay time,,13,,0,127,,,,,,,0-based,,
 KORG,microKORG,Delay,Delay depth,,94,,0,127,,,,,,,0-based,,
-KORG,microKORG,MIDI ,Timbre select,,95,,0,127,,,,,,,0-based,,
-KORG,microKORG,MIDI ,Sync control,,90,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,microKORG,MIDI,Timbre select,,95,,0,127,,,,,,,0-based,,
+KORG,microKORG,MIDI,Sync control,,90,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On

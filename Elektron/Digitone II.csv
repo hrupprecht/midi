@@ -6,7 +6,7 @@ Elektron,Digitone II,Trig,Velocity,,4,,0,127,100,3,1,0,127,100,0-based,,
 Elektron,Digitone II,Trig,Length,,5,,0,127,14,3,2,0,127,14,0-based,,
 Elektron,Digitone II,Trig,LFO Trig,,14,,0,1,1,,,,,,0-based,,0: Off; 1: On
 Elektron,Digitone II,Trig,Filter Trig,,13,,0,1,1,,,,,,0-based,,0: Off; 1: On
-Elektron,Digitone II,Trig,Portamento Time,,9,,0,127,40,3,6,0,127,40,0-based, range 1-128,
+Elektron,Digitone II,Trig,Portamento Time,,9,,0,127,40,3,6,0,127,40,0-based,Range 1-128,
 Elektron,Digitone II,Trig,Portamento Enabled,,65,,0,1,0,3,7,0,1,0,0-based,,0: Off; 1: On
 Elektron,Digitone II,Synth: Generic,Page 1: Parameter A,,40,,0,127,,1,73,0,16383,,0-based,,
 Elektron,Digitone II,Synth: Generic,Page 1: Parameter B,,41,,0,127,,1,74,0,16383,,0-based,,
@@ -221,7 +221,7 @@ Elektron,Digitone II,Filter: Equalizer,Equalizer: Key Tracking,,26,,0,100,0,1,69
 Elektron,Digitone II,Filter: Equalizer,Equalizer: Base,,27,,0,127,0,1,24,0,127,0,0-based,,
 Elektron,Digitone II,Filter: Equalizer,Equalizer: Width,,28,,0,127,127,1,25,0,127,127,0-based,,
 Elektron,Digitone II,Filter: Equalizer,Equalizer: Env. Reset,,25,,0,1,0,1,68,0,1,0,0-based,,0: Off; 1: On
-Elektron,Digitone II,Amp,Attack Time,,84,,0,127,8,1,30,0,127,8,0-based,,   
+Elektron,Digitone II,Amp,Attack Time,,84,,0,127,8,1,30,0,127,8,0-based,,
 Elektron,Digitone II,Amp,Hold Time,,85,,0,127,127,1,31,0,127,127,0-based,,127: Note
 Elektron,Digitone II,Amp,Decay Time,,86,,0,127,32,1,32,0,127,32,0-based,,
 Elektron,Digitone II,Amp,Sustain Level,,86,,0,127,96,1,33,0,127,96,0-based,,

@@ -1,0 +1,35 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Hologram,Chroma Console,Primary controls,Tilt,Controls the tone of the selected Character effect.,64,,0,127,,,,,,,centered,,
+Hologram,Chroma Console,Primary controls,Rate,Sets the modulation speed/rate.,66,,0,127,,,,,,,0-based,,
+Hologram,Chroma Console,Primary controls,Time,Sets the delay time or reverb size.,68,,0,127,,,,,,,0-based,,
+Hologram,Chroma Console,Primary controls,Mix,Blends between input signal and effected signal.,70,,0,127,,,,,,,0-based,,
+Hologram,Chroma Console,Primary controls,Character amount,Adjusts the intensity of the Character effect.,65,,0,127,,,,,,,0-based,,
+Hologram,Chroma Console,Primary controls,Movement amount,Adjusts the intensity/depth of the Movement effect.,67,,0,127,,,,,,,0-based,,
+Hologram,Chroma Console,Primary controls,Diffusion amount,Adjusts the repeats/feedback/mix of the Diffusion effect.,69,,0,127,,,,,,,0-based,,
+Hologram,Chroma Console,Primary controls,Texture amount,Adjusts the cutoff or intensity of the Texture effect.,71,,0,127,,,,,,,0-based,,
+Hologram,Chroma Console,Secondary controls,Sensitivity,Fine-tunes drive headroom or swell threshold.,72,,0,127,,,,,,,centered,,
+Hologram,Chroma Console,Secondary controls,Drift (Movement),Adds random pitch shifts or warble to Movement module effects.,74,,0,127,,,,,,,0-based,,
+Hologram,Chroma Console,Secondary controls,Drift (Diffusion),Adds pitch modulation or tape degradation to Diffusion module effects.,76,,0,127,,,,,,,0-based,,
+Hologram,Chroma Console,Secondary controls,Output level,Attenuates or boosts the FX output level.,78,,0,127,,,,,,,centered,,
+Hologram,Chroma Console,Secondary controls,Character effect volume,Adjusts the output volume of the Character module.,73,,0,127,,,,,,,centered,,
+Hologram,Chroma Console,Secondary controls,Movement effect volume,Adjusts the output volume of the Movement module.,75,,0,127,,,,,,,centered,,
+Hologram,Chroma Console,Secondary controls,Diffusion effect volume,Adjusts only the Diffusion wet effect volume.,77,,0,127,,,,,,,centered,,
+Hologram,Chroma Console,Secondary controls,Texture effect volume,Adjusts the output volume of the Texture module.,79,,0,127,,,,,,,centered,,
+Hologram,Chroma Console,Module select,Character module,Selects the active Character effect or bypasses the module.,16,,0,127,,,,,,,0-based,,0-21: Drive; 22-43: Sweeten; 44-65: Fuzz; 66-87: Howl; 88-109: Swell; 110-127: Off
+Hologram,Chroma Console,Module select,Movement module,Selects the active Movement effect or bypasses the module.,17,,0,127,,,,,,,0-based,,0-21: Doubler; 22-43: Vibrato; 44-65: Phaser; 66-87: Tremolo; 88-109: Pitch; 110-127: Off
+Hologram,Chroma Console,Module select,Diffusion module,Selects the active Diffusion effect or bypasses the module.,18,,0,127,,,,,,,0-based,,0-21: Cascade; 22-43: Reels; 44-65: Space; 66-87: Collage; 88-109: Reverse; 110-127: Off
+Hologram,Chroma Console,Module select,Texture module,Selects the active Texture effect or bypasses the module.,19,,0,127,,,,,,,0-based,,0-21: Filter; 22-43: Squash; 44-65: Cassette; 66-87: Broken; 88-109: Interference; 110-127: Off
+Hologram,Chroma Console,Bypass controls,Bypass,Engages or disengages Chroma Console.,91,,0,127,,,,,,,0-based,,0-63: Bypass; 64-127: Engage
+Hologram,Chroma Console,Bypass controls,Dual bypass,Sets standard or dual bypass mode.,92,,0,127,,,,,,,0-based,,0-31: Total bypass; 32-63: Dual bypass; 64-127: Total engage
+Hologram,Chroma Console,Bypass controls,Character module bypass,Bypasses or engages the Character module.,103,,0,127,,,,,,,0-based,,0-63: Bypass; 64-127: Engage
+Hologram,Chroma Console,Bypass controls,Movement module bypass,Bypasses or engages the Movement module.,104,,0,127,,,,,,,0-based,,0-63: Bypass; 64-127: Engage
+Hologram,Chroma Console,Bypass controls,Diffusion module bypass,Bypasses or engages the Diffusion module.,105,,0,127,,,,,,,0-based,,0-63: Bypass; 64-127: Engage
+Hologram,Chroma Console,Bypass controls,Texture module bypass,Bypasses or engages the Texture module.,106,,0,127,,,,,,,0-based,,0-63: Bypass; 64-127: Engage
+Hologram,Chroma Console,Gesture,Gesture play/record,Controls playback and recording of knob movements.,80,,0,127,,,,,,,0-based,,0-63: Play; 64-127: Record
+Hologram,Chroma Console,Gesture,Gesture stop/erase,Stops or erases recorded gestures.,81,,0,127,,,,,,,0-based,,0-127: Stop/erase
+Hologram,Chroma Console,Capture,Capture control,Controls looper/sustainer recording and playback.,82,,0,127,,,,,,,0-based,,0-43: Stop/clear; 44-87: Play; 88-127: Record
+Hologram,Chroma Console,Capture,Capture routing,Routes Capture looper before or after effects.,83,,0,127,,,,,,,0-based,,0-63: Post-FX; 64-127: Pre-FX
+Hologram,Chroma Console,Global settings,Tap tempo,Sends tap tempo input.,93,,0,127,,,,,,,0-based,,0-127: Tap
+Hologram,Chroma Console,Texture,Filter style,"Selects low-pass filter (LPF), tilt filter, or high-pass filter (HPF) style for Texture module.",84,,0,127,,,,,,,0-based,,0-43: Low-pass; 44-87: Tilt; 88-127: High-pass
+Hologram,Chroma Console,Calibration,Calibration headroom level,Sets the input level calibration headroom.,94,,0,127,,,,,,,0-based,,0-31: Low; 32-63: Medium; 64-95: High; 96-127: Very high
+Hologram,Chroma Console,Calibration,Calibration menu,Enters or exits the calibration menu.,95,,0,127,,,,,,,0-based,,0-63: Exit; 64-127: Enter

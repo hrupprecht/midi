@@ -1,0 +1,93 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Bastl Instruments,Thyme+,Volume,Volume Knob Value,,1,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Volume,Volume Robot Amount,,2,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Volume,Volume Robot Rate,,3,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Volume,Volume Robot Shape,,4,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Volume,Volume Robot Waveform,,5,,0,127,,,,,,,0-based,,0-15: Triangle; 16-31: Stepped Triangle; 32-47: XOR'd Flopping Triangle; 48-63: Stepped Ramp; 64-79: Stepped Random; 80-95: One Shot Decay; 96-111: ENV; 112-127: CV
+Bastl Instruments,Thyme+,Volume,Volume Robot Phase,,6,,0,127,,,,,,,0-based,,0-31: 0 degrees; 32-63: 90 degrees; 64-95: 180 degrees; 96-127: 270 degrees
+Bastl Instruments,Thyme+,Volume,Volume Robot Polarity,,7,,0,127,,,,,,,0-based,,0-42: Negative; 43-85: Bipolar; 86-127: Positive
+Bastl Instruments,Thyme+,Volume,Volume Robot Stereo,,8,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Volume,Volume Robot Sync,,9,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Mix,Mix Knob Value,,10,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Mix,Mix Robot Amount,,11,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Mix,Mix Robot Rate,,12,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Mix,Mix Robot Shape,,13,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Mix,Mix Robot Waveform,,14,,0,127,,,,,,,0-based,,0-15: Triangle; 16-31: Stepped Triangle; 32-47: XOR'd Flopping Triangle; 48-63: Stepped Ramp; 64-79: Stepped Random; 80-95: One Shot Decay; 96-111: ENV; 112-127: CV
+Bastl Instruments,Thyme+,Mix,Mix Robot Phase,,15,,0,127,,,,,,,0-based,,0-31: 0 degrees; 32-63: 90 degrees; 64-95: 180 degrees; 96-127: 270 degrees
+Bastl Instruments,Thyme+,Mix,Mix Robot Polarity,,16,,0,127,,,,,,,0-based,,0-42: Negative; 43-85: Bipolar; 86-127: Positive
+Bastl Instruments,Thyme+,Mix,Mix Robot Stereo,,17,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Mix,Mix Robot Sync,,18,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Tape Speed,Tape Speed Knob Value,,19,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Tape Speed,Tape Speed Robot Amount,,20,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Tape Speed,Tape Speed Robot Rate,,21,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Tape Speed,Tape Speed Robot Shape,,22,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Tape Speed,Tape Speed Robot Waveform,,23,,0,127,,,,,,,0-based,,0-15: Triangle; 16-31: Stepped Triangle; 32-47: XOR'd Flopping Triangle; 48-63: Stepped Ramp; 64-79: Stepped Random; 80-95: One Shot Decay; 96-111: ENV; 112-127: CV
+Bastl Instruments,Thyme+,Tape Speed,Tape Speed Robot Phase,,24,,0,127,,,,,,,0-based,,0-31: 0 degrees; 32-63: 90 degrees; 64-95: 180 degrees; 96-127: 270 degrees
+Bastl Instruments,Thyme+,Tape Speed,Tape Speed Robot Polarity,,25,,0,127,,,,,,,0-based,,0-42: Negative; 43-85: Bipolar; 86-127: Positive
+Bastl Instruments,Thyme+,Tape Speed,Tape Speed Robot Stereo,,26,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Tape Speed,Tape Speed Robot Sync,,27,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Feedback,Feedback Knob Value,,28,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Feedback,Feedback Robot Amount,,29,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Feedback,Feedback Robot Rate,,30,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Feedback,Feedback Robot Shape,,31,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Feedback,Feedback Robot Waveform,,32,,0,127,,,,,,,0-based,,0-15: Triangle; 16-31: Stepped Triangle; 32-47: XOR'd Flopping Triangle; 48-63: Stepped Ramp; 64-79: Stepped Random; 80-95: One Shot Decay; 96-111: ENV; 112-127: CV
+Bastl Instruments,Thyme+,Feedback,Feedback Robot Phase,,33,,0,127,,,,,,,0-based,,0-31: 0 degrees; 32-63: 90 degrees; 64-95: 180 degrees; 96-127: 270 degrees
+Bastl Instruments,Thyme+,Feedback,Feedback Robot Polarity,,34,,0,127,,,,,,,0-based,,0-42: Negative; 43-85: Bipolar; 86-127: Positive
+Bastl Instruments,Thyme+,Feedback,Feedback Robot Stereo,,35,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Feedback,Feedback Robot Sync,,36,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Filter,Filter Knob Value,,37,,0,127,,,,,,,centered,,
+Bastl Instruments,Thyme+,Filter,Filter Robot Amount,,38,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Filter,Filter Robot Rate,,39,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Filter,Filter Robot Shape,,40,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Filter,Filter Robot Waveform,,41,,0,127,,,,,,,0-based,,0-15: Triangle; 16-31: Stepped Triangle; 32-47: XOR'd Flopping Triangle; 48-63: Stepped Ramp; 64-79: Stepped Random; 80-95: One Shot Decay; 96-111: ENV; 112-127: CV
+Bastl Instruments,Thyme+,Filter,Filter Robot Phase,,42,,0,127,,,,,,,0-based,,0-31: 0 degrees; 32-63: 90 degrees; 64-95: 180 degrees; 96-127: 270 degrees
+Bastl Instruments,Thyme+,Filter,Filter Robot Polarity,,43,,0,127,,,,,,,0-based,,0-42: Negative; 43-85: Bipolar; 86-127: Positive
+Bastl Instruments,Thyme+,Filter,Filter Robot Stereo,,44,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Filter,Filter Robot Sync,,45,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Coarse,Coarse Knob Value,,46,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Coarse,Coarse Robot Amount,,47,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Coarse,Coarse Robot Rate,,48,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Coarse,Coarse Robot Shape,,49,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Coarse,Coarse Robot Waveform,,50,,0,127,,,,,,,0-based,,0-15: Triangle; 16-31: Stepped Triangle; 32-47: XOR'd Flopping Triangle; 48-63: Stepped Ramp; 64-79: Stepped Random; 80-95: One Shot Decay; 96-111: ENV; 112-127: CV
+Bastl Instruments,Thyme+,Coarse,Coarse Robot Phase,,51,,0,127,,,,,,,0-based,,0-31: 0 degrees; 32-63: 90 degrees; 64-95: 180 degrees; 96-127: 270 degrees
+Bastl Instruments,Thyme+,Coarse,Coarse Robot Polarity,,52,,0,127,,,,,,,0-based,,0-42: Negative; 43-85: Bipolar; 86-127: Positive
+Bastl Instruments,Thyme+,Coarse,Coarse Robot Stereo,,53,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Coarse,Coarse Robot Sync,,54,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Fine,Fine Knob Value,,55,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Fine,Fine Robot Amount,,56,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Fine,Fine Robot Rate,,57,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Fine,Fine Robot Shape,,58,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Fine,Fine Robot Waveform,,59,,0,127,,,,,,,0-based,,0-15: Triangle; 16-31: Stepped Triangle; 32-47: XOR'd Flopping Triangle; 48-63: Stepped Ramp; 64-79: Stepped Random; 80-95: One Shot Decay; 96-111: ENV; 112-127: CV
+Bastl Instruments,Thyme+,Fine,Fine Robot Phase,,60,,0,127,,,,,,,0-based,,0-31: 0 degrees; 32-63: 90 degrees; 64-95: 180 degrees; 96-127: 270 degrees
+Bastl Instruments,Thyme+,Fine,Fine Robot Polarity,,61,,0,127,,,,,,,0-based,,0-42: Negative; 43-85: Bipolar; 86-127: Positive
+Bastl Instruments,Thyme+,Fine,Fine Robot Stereo,,62,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Fine,Fine Robot Sync,,63,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Levels,Levels Knob Value,,71,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Levels,Levels Robot Amount,,72,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Levels,Levels Robot Rate,,73,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Levels,Levels Robot Shape,,74,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Levels,Levels Robot Waveform,,75,,0,127,,,,,,,0-based,,0-15: Triangle; 16-31: Stepped Triangle; 32-47: XOR'd Flopping Triangle; 48-63: Stepped Ramp; 64-79: Stepped Random; 80-95: One Shot Decay; 96-111: ENV; 112-127: CV
+Bastl Instruments,Thyme+,Levels,Levels Robot Phase,,76,,0,127,,,,,,,0-based,,0-31: 0 degrees; 32-63: 90 degrees; 64-95: 180 degrees; 96-127: 270 degrees
+Bastl Instruments,Thyme+,Levels,Levels Robot Polarity,,77,,0,127,,,,,,,0-based,,0-42: Negative; 43-85: Bipolar; 86-127: Positive
+Bastl Instruments,Thyme+,Levels,Levels Robot Stereo,,78,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Levels,Levels Robot Sync,,79,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Spacing,Spacing Knob Value,,80,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Spacing,Spacing Robot Amount,,81,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Spacing,Spacing Robot Rate,,82,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Spacing,Spacing Robot Shape,,83,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Spacing,Spacing Robot Waveform,,84,,0,127,,,,,,,0-based,,0-15: Triangle; 16-31: Stepped Triangle; 32-47: XOR'd Flopping Triangle; 48-63: Stepped Ramp; 64-79: Stepped Random; 80-95: One Shot Decay; 96-111: ENV; 112-127: CV
+Bastl Instruments,Thyme+,Spacing,Spacing Robot Phase,,85,,0,127,,,,,,,0-based,,0-31: 0 degrees; 32-63: 90 degrees; 64-95: 180 degrees; 96-127: 270 degrees
+Bastl Instruments,Thyme+,Spacing,Spacing Robot Polarity,,86,,0,127,,,,,,,0-based,,0-42: Negative; 43-85: Bipolar; 86-127: Positive
+Bastl Instruments,Thyme+,Spacing,Spacing Robot Stereo,,87,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Spacing,Spacing Robot Sync,,88,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Global,Scale Change Bank,,0,,0,127,,,,,,,0-based,,
+Bastl Instruments,Thyme+,Controls,Footswitch,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Controls,Randomize Tape Machine,,65,,0,127,,,,,,,0-based,,64-127: Trigger
+Bastl Instruments,Thyme+,Controls,Randomize Robots,,66,,0,127,,,,,,,0-based,,64-127: Trigger
+Bastl Instruments,Thyme+,Controls,Randomize Robots & Tape Machine,,67,,0,127,,,,,,,0-based,,64-127: Trigger
+Bastl Instruments,Thyme+,Controls,Freeze,,68,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Controls,Link,,69,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Controls,Delay Sync,,70,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Synthesis,Karplus Strong Decay Time Compensation,,89,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Bastl Instruments,Thyme+,Controls,Change Pattern,,90,,0,127,,,,,,,0-based,,0-31: Pattern A; 32-63: Pattern B; 64-95: Pattern C; 96-127: Pattern D
+Bastl Instruments,Thyme+,Controls,Activate Bypass,,120,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On

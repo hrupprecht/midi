@@ -1,0 +1,11 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Sleepy Circuits,Hypno,General,Preset recall / save,Long press to save preset and short press to recall,16,2,116,2,,
+Sleepy Circuits,Hypno,General,Toggle A Shape,Cycle trough oscillator A shapes,16,118,118,118,,
+Sleepy Circuits,Hypno,General,Toggle B Shape,Cycle trough oscillator B shapes,16,121,121,121,,
+Sleepy Circuits,Hypno,General,Toggle FB Mode,Cycle trough feedback modes,16,123,123,123,,
+Sleepy Circuits,Hypno,General,Toggle A->B,Modulate oscillator B with oscillator A,16,127,127,127,,
+Sleepy Circuits,Hypno,General,Toggle A->Main,Send oscillator A to main output,16,125,125,125,,
+Sleepy Circuits,Hypno,General,Toggle B->A,Modulate oscillator A with oscillator B,16,124,124,124,,
+Sleepy Circuits,Hypno,General,Toggle B->Main,Send oscillator B to main output,16,122,122,122,,
+Sleepy Circuits,Hypno,General,Toggle FB->A,Modulate oscillator A with feedback,16,120,120,120,,
+Sleepy Circuits,Hypno,General,Toggle FB->B,Modulate oscillator B with feedback,16,119,119,119,,

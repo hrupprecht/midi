@@ -1,0 +1,133 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Alesis,SR-16,Normal mode,Kick,,basic,36,36,36,,1~127: Volume
+Alesis,SR-16,Normal mode,Snare,,basic,38,38,38,,1~127: Volume
+Alesis,SR-16,Normal mode,Claps,,basic,39,39,39,,1~127: Volume
+Alesis,SR-16,Normal mode,Closed hihat,,basic,42,42,42,,1~127: Volume
+Alesis,SR-16,Normal mode,Open hihat,,basic,46,46,46,,1~127: Volume
+Alesis,SR-16,Normal mode,Tom 1,,basic,48,48,48,,1~127: Volume
+Alesis,SR-16,Normal mode,Tom 2,,basic,45,45,45,,1~127: Volume
+Alesis,SR-16,Normal mode,Tom 3,,basic,41,41,41,,1~127: Volume
+Alesis,SR-16,Normal mode,Ride,,basic,51,51,51,,1~127: Volume
+Alesis,SR-16,Normal mode,Crash,,basic,49,49,49,,1~127: Volume
+Alesis,SR-16,Normal mode,Percussion 1,,basic,65,65,65,,1~127: Volume
+Alesis,SR-16,Normal mode,Percussion 2,,basic,67,67,67,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 01,,basic,0,0,0,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 02,,basic,1,1,1,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 03,,basic,2,2,2,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 04,,basic,3,3,3,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 05,,basic,4,4,4,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 06,,basic,5,5,5,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 07,,basic,6,6,6,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 08,,basic,7,7,7,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 09,,basic,8,8,8,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 10,,basic,9,9,9,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 11,,basic,10,10,10,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 00 Pad 12,,basic,11,11,11,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 01,,basic,12,12,12,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 02,,basic,13,13,13,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 03,,basic,14,14,14,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 04,,basic,15,15,15,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 05,,basic,16,16,16,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 06,,basic,17,17,17,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 07,,basic,18,18,18,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 08,,basic,19,19,19,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 09,,basic,20,20,20,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 10,,basic,21,21,21,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 11,,basic,22,22,22,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 01 Pad 12,,basic,23,23,23,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 01,,basic,24,24,24,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 02,,basic,25,25,25,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 03,,basic,26,26,26,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 04,,basic,27,27,27,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 05,,basic,28,28,28,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 06,,basic,29,29,29,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 07,,basic,30,30,30,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 08,,basic,31,31,31,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 09,,basic,32,32,32,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 10,,basic,33,33,33,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 11,,basic,34,34,34,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 02 Pad 12,,basic,35,35,35,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 01,,basic,36,36,36,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 02,,basic,37,37,37,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 03,,basic,38,38,38,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 04,,basic,39,39,39,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 05,,basic,40,40,40,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 06,,basic,41,41,41,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 07,,basic,42,42,42,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 08,,basic,43,43,43,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 09,,basic,44,44,44,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 10,,basic,45,45,45,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 11,,basic,46,46,46,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 03 Pad 12,,basic,47,47,47,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 01,,basic,48,48,48,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 02,,basic,49,49,49,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 03,,basic,50,50,50,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 04,,basic,51,51,51,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 05,,basic,52,52,52,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 06,,basic,53,53,53,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 07,,basic,54,54,54,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 08,,basic,55,55,55,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 09,,basic,56,56,56,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 10,,basic,57,57,57,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 11,,basic,58,58,58,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 04 Pad 12,,basic,59,59,59,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 01,,basic,60,60,60,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 02,,basic,61,61,61,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 03,,basic,62,62,62,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 04,,basic,63,63,63,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 05,,basic,64,64,64,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 06,,basic,65,65,65,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 07,,basic,66,66,66,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 08,,basic,67,67,67,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 09,,basic,68,68,68,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 10,,basic,69,69,69,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 11,,basic,70,70,70,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 05 Pad 12,,basic,71,71,71,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 01,,basic,72,72,72,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 02,,basic,73,73,73,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 03,,basic,74,74,74,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 04,,basic,75,75,75,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 05,,basic,76,76,76,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 06,,basic,77,77,77,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 07,,basic,78,78,78,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 08,,basic,79,79,79,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 09,,basic,80,80,80,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 10,,basic,81,81,81,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 11,,basic,82,82,82,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 06 Pad 12,,basic,83,83,83,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 01,,basic,84,84,84,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 02,,basic,85,85,85,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 03,,basic,86,86,86,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 04,,basic,87,87,87,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 05,,basic,88,88,88,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 06,,basic,89,89,89,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 07,,basic,90,90,90,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 08,,basic,91,91,91,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 09,,basic,92,92,92,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 10,,basic,93,93,93,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 11,,basic,94,94,94,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 07 Pad 12,,basic,95,95,95,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 01,,basic,96,96,96,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 02,,basic,97,97,97,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 03,,basic,98,98,98,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 04,,basic,99,99,99,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 05,,basic,100,100,100,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 06,,basic,101,101,101,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 07,,basic,102,102,102,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 08,,basic,103,103,103,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 09,,basic,104,104,104,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 10,,basic,105,105,105,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 11,,basic,106,106,106,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 08 Pad 12,,basic,107,107,107,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 01,,basic,108,108,108,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 02,,basic,109,109,109,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 03,,basic,110,110,110,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 04,,basic,111,111,111,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 05,,basic,112,112,112,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 06,,basic,113,113,113,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 07,,basic,114,114,114,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 08,,basic,115,115,115,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 09,,basic,116,116,116,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 10,,basic,117,117,117,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 11,,basic,118,118,118,,1~127: Volume
+Alesis,SR-16,Multi-drumset mode,Drumset 09 Pad 12,,basic,119,119,119,,1~127: Volume

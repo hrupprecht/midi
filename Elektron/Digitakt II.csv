@@ -22,7 +22,7 @@ Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Bank Select,,24,,0,127,,1,9
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Start,,20,,0,120,0,1,4,0,15360,0,0-based,,
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Length,,21,,0,120,120,1,5,0,15360,15360,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Loop Pos,,22,,0,120,120,1,6,0,15361,15361,0-based,, 0: Off
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Loop Pos,,22,,0,120,120,1,6,0,15361,15361,0-based,,0: Off
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Werp,Werp: Tune,,16,,0,127,63,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Werp,Werp: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
@@ -274,4 +274,4 @@ Elektron,Digitakt II,Euclidean,Boolean Operator,,,,,,,3,10,0,3,0,0-based,,0: OR;
 Elektron,Digitakt II,Misc,Pattern Mute,,110,,0,1,0,1,104,0,1,0,0-based,,0: Unmuted; 1: Muted
 Elektron,Digitakt II,Misc,Sample Slot,,19,,0,127,0,1,8,0,16383,0,0-based,,
 Elektron,Digitakt II,Misc,Sample Bank,,24,,0,127,0,1,9,0,16383,0,0-based,,
-Elektron,Digitakt II,Misc,Master Overdrive,,17,,0,127,0,2,37,0,127,0,0-based,, 0: Off
+Elektron,Digitakt II,Misc,Master Overdrive,,17,,0,127,0,2,37,0,127,0,0-based,,0: Off

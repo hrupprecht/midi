@@ -3,7 +3,7 @@ NUX,Tape Echo NDD-7,General,Enable,,0,,0,127,,,,,,,0-based,Configurable through 
 NUX,Tape Echo NDD-7,General,Position,,1,,0,127,,,,,,,0-based,Configurable through TapeEcho App,
 NUX,Tape Echo NDD-7,General,Saturation,,2,,0,127,,,,,,,0-based,Configurable through TapeEcho App,
 NUX,Tape Echo NDD-7,General,Wow,,3,,0,127,,,,,,,0-based,Configurable through TapeEcho App,
-NUX,Tape Echo NDD-7,General,Flutter ,,4,,0,127,,,,,,,0-based,Configurable through TapeEcho App,
+NUX,Tape Echo NDD-7,General,Flutter,,4,,0,127,,,,,,,0-based,Configurable through TapeEcho App,
 NUX,Tape Echo NDD-7,General,Kill dry,,5,,0,127,,,,,,,0-based,Configurable through TapeEcho App,
 NUX,Tape Echo NDD-7,General,Time,,6,,0,127,,,,,,,0-based,Configurable through TapeEcho App,
 NUX,Tape Echo NDD-7,General,Repeat,,7,,0,127,,,,,,,0-based,Configurable through TapeEcho App,

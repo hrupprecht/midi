@@ -119,7 +119,14 @@ export function parseCSV(content: string, filename: string): ParseResult {
 
     const row: Record<string, string | number | null> = {};
     for (let c = 0; c < headers.length; c++) {
-      const val = (record[c] ?? "").trim();
+      const raw = record[c] ?? "";
+      const val = raw.trim();
+      if (raw !== val) {
+        errors.push(
+          filename + ":" + (i + 2) + ' column "' + headers[c] +
+            '" has leading/trailing whitespace: "' + raw + '"',
+        );
+      }
       if (NUMERIC_FIELDS.has(headers[c])) {
         row[headers[c]] = val === "" ? null : parseInt(val, 10);
         if (val !== "" && isNaN(row[headers[c]] as number)) {

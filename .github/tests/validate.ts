@@ -1,10 +1,11 @@
 import type { Row } from "./parse.ts";
+import { parseUsageOptions } from "./usage.ts";
 
 function rowLabel(row: Row, filename: string): string {
   return filename + ":" + row.line + " " + row.parameter_name;
 }
 
-function midiRange(
+export function midiRange(
   value: number | null,
   name: string,
   label: string,
@@ -18,6 +19,49 @@ function midiRange(
 export interface ValidationResult {
   errors: string[];
   warnings: string[];
+}
+
+// Characters not permitted in file/folder names on FAT32 (VFAT long names).
+// "/" is the path separator and is handled by checking each segment, so it is
+// not listed here.
+const FAT32_INVALID = new Set(['"', "*", ":", "<", ">", "?", "\\", "|"]);
+
+// Validate that every component of a path is a legal FAT32 file/folder name.
+// The repo is distributed on FAT32-formatted disks, so folder and file names
+// must avoid reserved characters and control characters.
+export function validatePath(filename: string): ValidationResult {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+
+  for (const segment of filename.split("/")) {
+    if (segment.length === 0) continue;
+
+    const invalid: string[] = [];
+    const seen = new Set<string>();
+    for (const ch of segment) {
+      const code = ch.codePointAt(0)!;
+      let token: string | null = null;
+      if (code <= 0x1f || code === 0x7f) {
+        token = "\\x" + code.toString(16).padStart(2, "0");
+      } else if (FAT32_INVALID.has(ch)) {
+        token = ch;
+      }
+      if (token !== null && !seen.has(token)) {
+        seen.add(token);
+        invalid.push(token);
+      }
+    }
+
+    if (invalid.length > 0) {
+      errors.push(
+        filename + ': name "' + segment +
+          '" contains characters not valid on FAT32 disks: ' +
+          invalid.join(" "),
+      );
+    }
+  }
+
+  return { errors, warnings };
 }
 
 // Validate a single row's fields
@@ -39,42 +83,11 @@ export function validateRow(row: Row, filename: string): ValidationResult {
   }
 
   // --- Usage checks ---
-  const usageOptions: Record<string, string> = {};
-  if (row.usage) {
-    const parts = row.usage.split(";");
-    for (const rawPart of parts) {
-      const part = rawPart.trim();
-      if (!part.length) continue;
-
-      const sparts = part.split(":");
-      if (sparts.length < 2) {
-        errors.push(`Bad usage part, no ":" in "${part}" in: ${label}`);
-        continue;
-      }
-
-      const values = sparts.shift()!.trim();
-      const meaning = sparts.join(":").trim();
-
-      if (values.match(/^\d+$/)) {
-        if (!(values in usageOptions)) usageOptions[values] = meaning;
-      } else if (values.match(/^\d+\s*[-~]\s*\d+$/)) {
-        const match = values.match(/^(\d+)\s*[-~]\s*(\d+)$/)!;
-        const s = parseInt(match[1]);
-        const e = parseInt(match[2]);
-        for (let v = s; v <= e; v++) {
-          if (!(String(v) in usageOptions)) usageOptions[String(v)] = meaning;
-        }
-      } else {
-        errors.push(
-          `Bad usage part, values "${values}" not correctly formatted in "${part}" in: ${label}`,
-        );
-      }
-
-      if (!meaning) {
-        errors.push(`Bad usage part, no meaning in "${part}" in: ${label}`);
-      }
-    }
-  }
+  const { options: usageOptions, errors: usageErrors } = parseUsageOptions(
+    row.usage,
+    label,
+  );
+  errors.push(...usageErrors);
 
   // --- Column checks ---
 
@@ -135,9 +148,10 @@ export function validateRow(row: Row, filename: string): ValidationResult {
     errors.push(`Default only set for one type in: ${label}`);
   }
 
-  // Orientation must be 'centered' or '0-based'
-  if (
-    row.orientation &&
+  // Orientation is required and must be 'centered' or '0-based'
+  if (!row.orientation) {
+    errors.push(`Orientation is required in: ${label}`);
+  } else if (
     row.orientation !== "centered" && row.orientation !== "0-based"
   ) {
     errors.push(
@@ -233,15 +247,11 @@ export function validateFile(rows: Row[], filename: string): ValidationResult {
       basename !== null && device !== basename && !seenDevice.has(device)
     ) {
       seenDevice.add(device);
-      // "/" is illegal in file names; accept ":" as a stand-in but warn so
-      // the substitution stays visible.
-      const msg = filename + ":" + row.line + ' device "' + device +
-        '" does not match file name "' + basename + '"';
-      if (device.includes("/") && basename.replaceAll(":", "/") === device) {
-        warnings.push(msg);
-      } else {
-        errors.push(msg);
-      }
+      // A device name must match its file name exactly. 
+      errors.push(
+        filename + ":" + row.line + ' device "' + device +
+          '" does not match file name "' + basename + '"',
+      );
     }
 
     if (

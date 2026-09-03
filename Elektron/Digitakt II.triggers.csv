@@ -1,0 +1,18 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Elektron,Digitakt II,General,Track 1,,1,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 2,,2,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 3,,3,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 4,,4,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 5,,5,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 6,,6,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 7,,7,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 8,,8,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 9,,9,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 10,,10,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 11,,11,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 12,,12,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 13,,13,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 14,,14,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 15,,15,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Track 16,,16,0,127,,,1~127: Volume
+Elektron,Digitakt II,General,Active track,,auto,0,127,,Received on the Auto Channel; routes to whichever track is currently active.,1~127: Volume

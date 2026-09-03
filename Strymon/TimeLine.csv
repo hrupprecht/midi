@@ -28,8 +28,7 @@ Strymon,TimeLine,Trem,Speed Ratio,Trem LFO speed vs delay time,61,,0,34,,,,,,,0-
 Strymon,TimeLine,Trem,Depth,Trem LFO depth,57,,0,18,,,,,,,0-based,,0~18: Depth amount
 Strymon,TimeLine,Trem,LFO Shape,Waveform for tremolo,29,,0,4,,,,,,,0-based,,0: Triangle; 1: Square; 2: Sine; 3: Ramp; 4: Saw
 Strymon,TimeLine,Filter,Q (Resonance),Filter resonance,40,,0,11,,,,,,,0-based,,0~11: Q amount
-Strymon,TimeLine,Filter,LFO Shape,Waveform / polarity for filter sweep,28,,0,10,,,,,,,0-based,,"0: +Triangle; 1: -Triangle; 2: -Square; 3: +Square; 4: -Sine, 5: +Sine; 6: Ramp; 7: Down; 8: Up; 9: Saw; 10: Random
-"
+Strymon,TimeLine,Filter,LFO Shape,Waveform / polarity for filter sweep,28,,0,10,,,,,,,0-based,,"0: +Triangle; 1: -Triangle; 2: -Square; 3: +Square; 4: -Sine, 5: +Sine; 6: Ramp; 7: Down; 8: Up; 9: Saw; 10: Random"
 Strymon,TimeLine,Filter,Depth,Filter sweep depth,41,,0,18,,,,,,,0-based,,0~18: Depth amount
 Strymon,TimeLine,Filter,Speed Ratio,Filter LFO speed vs delay time,42,,0,34,,,,,,,0-based,,0-34: Speed ratio (1/32 to 32/1)
 Strymon,TimeLine,Filter,Location,Filter pre/post delay,43,,0,1,,,,,,,0-based,,0: Pre; 1: Post
