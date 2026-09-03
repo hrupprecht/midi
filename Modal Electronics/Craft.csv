@@ -30,7 +30,7 @@ Modal Electronics,Craft,VCF,FEG release,,25,,0,127,,,,,,,0-based,0-4 Seconds,
 Modal Electronics,Craft,VCF,FEG amount,,32,,0,127,,,,,,,centered,,
 Modal Electronics,Craft,FX,Distortion,,12,,0,127,,,,,,,0-based,Dry - Wet,
 Modal Electronics,Craft,FX,Delay,,13,,0,127,,,,,,,0-based,Dry - Wet,
-Modal Electronics,Craft,FX,Delay time,,14,,0,127,,,,,,,0-based,"No Sync: 0 - 250 milliseconds / Sync: 8 steps, Longest delay time possible divided down ",
+Modal Electronics,Craft,FX,Delay time,,14,,0,127,,,,,,,0-based,"No Sync: 0 - 250 milliseconds / Sync: 8 steps, Longest delay time possible divided down",
 Modal Electronics,Craft,FX,Delay feedback,,15,,0,127,,,,,,,0-based,0% - 90%,
 Modal Electronics,Craft,LFO,LFO1 unsynced rate,,36,,0,127,,,,,,,0-based,"Depends on LFO1 MIDI Sync, CC 52",0~127: 0.02Hz to 32Hz
 Modal Electronics,Craft,LFO,LFO1 synced rate,,36,,0,127,,,,,,,0-based,"Depends on LFO1 MIDI Sync, CC 52",0-7: 1/16; 8-15: 1/8; 16-23: 3/16; 24-31: 1/4; 32-39: 3/8; 40-47: 1/2; 48-55: 3/4; 56-63: 1; 64-71: 3/2; 72-79: 2; 80-87: 3; 88-95: 4; 96-103: 6 /104-111: 8; 112-119: 12; 120-127: 16

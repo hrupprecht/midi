@@ -1,0 +1,13 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Roland,TR-6S,Note numbers,Bass drum,,10,36,36,36,,
+Roland,TR-6S,Note numbers,Snare drum,,10,38,38,38,,
+Roland,TR-6S,Note numbers,Low tom,,10,43,43,43,,
+Roland,TR-6S,Note numbers,Hand clap,,10,39,39,39,,
+Roland,TR-6S,Note numbers,Closed hi-hat,,10,42,42,42,,
+Roland,TR-6S,Note numbers,Open hi-hat,,10,46,46,46,,
+Roland,TR-6S,Alternate note numbers,Bass drum,,10,35,35,35,,
+Roland,TR-6S,Alternate note numbers,Snare drum,,10,40,40,40,,
+Roland,TR-6S,Alternate note numbers,Low tom,,10,41,41,41,,
+Roland,TR-6S,Alternate note numbers,Hand clap,,10,54,54,54,,
+Roland,TR-6S,Alternate note numbers,Closed hi-hat,,10,44,44,44,,
+Roland,TR-6S,Alternate note numbers,Open hi-hat,,10,55,55,55,,

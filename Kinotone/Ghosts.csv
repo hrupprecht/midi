@@ -1,0 +1,28 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Kinotone,Ghosts,Main controls,Mix,,14,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Main controls,Volume,,15,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Main controls,Root,,16,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Main controls,Chord,,17,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Main controls,Tone,,18,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Main controls,Decay,,19,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Touch controls,Touch 1,,20,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Touch controls,Touch 2,,21,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Main controls,Position,,22,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Main controls,Voicing,,23,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Reverb,Reverb mix and placement,,24,,0,127,,,,,,,0-based,,0-63: Pre resonator mix; 64-127: Post resonator mix
+Kinotone,Ghosts,Reverb,Time (reverb decay),,25,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Touch controls,Touch pre/post,,26,,0,127,,,,,,,0-based,,0-63: Pre; 64-127: Post
+Kinotone,Ghosts,Touch controls,Touch 3,,27,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Hidden controls,Limiter threshold,,28,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Hidden controls,Mic level,,29,,0,127,,,,,,,0-based,,
+Kinotone,Ghosts,Hidden controls,Input filter,,30,,0,127,,,,,,,0-based,,0-63: High pass; 64-127: Low pass
+Kinotone,Ghosts,Hidden controls,Exciter type,,31,,0,127,,,,,,,0-based,,0-31: Pluck / strike; 32-63: Air; 64-95: Vocoder; 96-127: Vocoder hold
+Kinotone,Ghosts,Touch controls,Touch mode,,32,,0,127,,,,,,,0-based,,0-31: Endless loop; 32-63: Rhythm generator; 64-95: Shepard shifter; 96-127: Terrazzo
+Kinotone,Ghosts,Model,Model,,33,,0,127,,,,,,,0-based,,0-42: Strings; 43-85: Tubes; 86-127: Bars
+Kinotone,Ghosts,Microphone,Mic on/off,,34,,0,127,,,,,,,0-based,,0-64: Off; 65-127: On
+Kinotone,Ghosts,Other,Ignore MIDI clock,,51,,0,127,,,,,,,0-based,,0: Ignore MIDI clock; 1-127: Listen to MIDI clock
+Kinotone,Ghosts,Other,Ignore MIDI transport (start/stop),,52,,0,127,,,,,,,0-based,,0: Ignore MIDI transport; 1-127: Listen to MIDI transport
+Kinotone,Ghosts,Endless Loop,Clear endless loop,,60,,0,127,,,,,,,0-based,,0-64: False; 65-127: True
+Kinotone,Ghosts,Footswitches,Touch footswitch (endless loop),,80,,127,127,,,,,,,0-based,,127: Advance state
+Kinotone,Ghosts,Footswitches,Touch footswitch (all other touch modes),,80,,0,127,,,,,,,0-based,,0-64: Off; 65-127: On
+Kinotone,Ghosts,Footswitches,Bypass footswitch,,81,,0,127,,,,,,,0-based,,0-64: Off; 65-127: On

@@ -137,7 +137,7 @@ Novation,MiniNova,Envelope 1,Level track,,114,,0,127,,,,,,,centered,,
 Novation,MiniNova,Envelope 1,Attack slope,,115,,0,127,,,,,,,0-based,,
 Novation,MiniNova,Envelope 1,Decay slope,,116,,0,127,,,,,,,0-based,,
 Novation,MiniNova,Envelope 1,Animation trigger,,117,,0,8,,,,,,,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig
-Novation,MiniNova,Envelope 1,Trigger,,,,,,,0,122,0,1,,,NRPN MSB/LSB shared with multiple parameters.,0: Single; 1: Multi
+Novation,MiniNova,Envelope 1,Trigger,,,,,,,0,122,0,1,,0-based,NRPN MSB/LSB shared with multiple parameters.,0: Single; 1: Multi
 Novation,MiniNova,Envelope 2,Velocity,,,,,,,0,0,0,127,,centered,,
 Novation,MiniNova,Envelope 2,Attack,,,,,,,0,1,0,127,,0-based,,
 Novation,MiniNova,Envelope 2,Decay,,,,,,,0,2,0,127,,0-based,,
@@ -152,7 +152,7 @@ Novation,MiniNova,Envelope 2,Level track,,,,,,,0,10,0,127,,centered,,
 Novation,MiniNova,Envelope 2,Attack slope,,,,,,,0,11,0,127,,0-based,,
 Novation,MiniNova,Envelope 2,Decay slope,,,,,,,0,12,0,127,,0-based,,
 Novation,MiniNova,Envelope 2,Animation trigger,,,,,,,0,13,0,24,,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
-Novation,MiniNova,Envelope 2,Trigger,,,,,,,0,122,2,3,,,NRPN MSB/LSB shared with multiple parameters.,2: Single; 3: Multi
+Novation,MiniNova,Envelope 2,Trigger,,,,,,,0,122,2,3,,0-based,NRPN MSB/LSB shared with multiple parameters.,2: Single; 3: Multi
 Novation,MiniNova,Envelope 3,Delay,,,,,,,0,14,0,127,,0-based,,
 Novation,MiniNova,Envelope 3,Attack,,,,,,,0,15,0,127,,0-based,,
 Novation,MiniNova,Envelope 3,Decay,,,,,,,0,16,0,127,,0-based,,
@@ -167,7 +167,7 @@ Novation,MiniNova,Envelope 3,Level track,,,,,,,0,24,0,127,,centered,,
 Novation,MiniNova,Envelope 3,Attack slope,,,,,,,0,25,0,127,,0-based,,
 Novation,MiniNova,Envelope 3,Decay slope,,,,,,,0,26,0,127,,0-based,,
 Novation,MiniNova,Envelope 3,Animation trigger,,,,,,,0,27,0,24,,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
-Novation,MiniNova,Envelope 3,Trigger,,,,,,,0,122,4,5,,,NRPN MSB/LSB shared with multiple parameters.,4: Single; 5: Multi
+Novation,MiniNova,Envelope 3,Trigger,,,,,,,0,122,4,5,,0-based,NRPN MSB/LSB shared with multiple parameters.,4: Single; 5: Multi
 Novation,MiniNova,Envelope 4,Delay,,,,,,,0,28,0,127,,0-based,,
 Novation,MiniNova,Envelope 4,Attack,,,,,,,0,29,0,127,,0-based,,
 Novation,MiniNova,Envelope 4,Decay,,,,,,,0,30,0,127,,0-based,,
@@ -182,7 +182,7 @@ Novation,MiniNova,Envelope 4,Level track,,,,,,,0,38,0,127,,centered,,
 Novation,MiniNova,Envelope 4,Attack slope,,,,,,,0,39,0,127,,0-based,,
 Novation,MiniNova,Envelope 4,Decay slope,,,,,,,0,40,0,127,,0-based,,
 Novation,MiniNova,Envelope 4,Animation trigger,,,,,,,0,41,0,24,,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
-Novation,MiniNova,Envelope 4,Trigger,,,,,,,0,122,6,7,,,NRPN MSB/LSB shared with multiple parameters.,6: Single; 7: Multi
+Novation,MiniNova,Envelope 4,Trigger,,,,,,,0,122,6,7,,0-based,NRPN MSB/LSB shared with multiple parameters.,6: Single; 7: Multi
 Novation,MiniNova,Envelope 5,Delay,,,,,,,0,42,0,127,,0-based,,
 Novation,MiniNova,Envelope 5,Attack,,,,,,,0,43,0,127,,0-based,,
 Novation,MiniNova,Envelope 5,Decay,,,,,,,0,44,0,127,,0-based,,
@@ -197,7 +197,7 @@ Novation,MiniNova,Envelope 5,Level track,,,,,,,0,52,0,127,,centered,,
 Novation,MiniNova,Envelope 5,Attack slope,,,,,,,0,53,0,127,,0-based,,
 Novation,MiniNova,Envelope 5,Decay slope,,,,,,,0,54,0,127,,0-based,,
 Novation,MiniNova,Envelope 5,Animation trigger,,,,,,,0,55,0,24,,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
-Novation,MiniNova,Envelope 5,Trigger,,,,,,,0,122,8,9,,,NRPN MSB/LSB shared with multiple parameters.,8: Single; 9: Multi
+Novation,MiniNova,Envelope 5,Trigger,,,,,,,0,122,8,9,,0-based,NRPN MSB/LSB shared with multiple parameters.,8: Single; 9: Multi
 Novation,MiniNova,Envelope 6,Delay,,,,,,,0,56,0,127,,0-based,,
 Novation,MiniNova,Envelope 6,Attack,,,,,,,0,57,0,127,,0-based,,
 Novation,MiniNova,Envelope 6,Decay,,,,,,,0,58,0,127,,0-based,,
@@ -212,7 +212,7 @@ Novation,MiniNova,Envelope 6,Level track,,,,,,,0,66,0,127,,centered,,
 Novation,MiniNova,Envelope 6,Attack slope,,,,,,,0,67,0,127,,0-based,,
 Novation,MiniNova,Envelope 6,Decay slope,,,,,,,0,68,0,127,,0-based,,
 Novation,MiniNova,Envelope 6,Animation trigger,,,,,,,0,69,0,24,,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
-Novation,MiniNova,Envelope 6,Trigger,,,,,,,0,122,10,11,,,NRPN MSB/LSB shared with multiple parameters.,10: Single; 11: Multi
+Novation,MiniNova,Envelope 6,Trigger,,,,,,,0,122,10,11,,0-based,NRPN MSB/LSB shared with multiple parameters.,10: Single; 11: Multi
 Novation,MiniNova,Equalizer,Bass frequncy,,,,,,,0,104,0,127,,0-based,,
 Novation,MiniNova,Equalizer,Bass level,,,,,,,0,105,0,127,,centered,,
 Novation,MiniNova,Equalizer,Mid frequency,,,,,,,0,106,0,127,,0-based,,

@@ -1,0 +1,8 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Roland,T-8,Bass,Bass,Monophonic chromatic bass voice,2,12,96,,,
+Roland,T-8,Rhythm,Bass drum,,10,36,36,36,,
+Roland,T-8,Rhythm,Snare drum,,10,38,38,38,,
+Roland,T-8,Rhythm,Hand clap,,10,50,50,50,,
+Roland,T-8,Rhythm,Tom,,10,47,47,47,,
+Roland,T-8,Rhythm,Closed hihat,,10,42,42,42,,
+Roland,T-8,Rhythm,Open hihat,,10,46,46,46,,

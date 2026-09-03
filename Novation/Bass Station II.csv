@@ -89,5 +89,5 @@ Novation,Bass Station II,Aftertouch,Filter freq,,,,,,,0,74,,,,0-based,,
 Novation,Bass Station II,Aftertouch,LFO 1 osc pitch,,,,,,,0,75,,,,centered,Usage is for MSB,63: No effect
 Novation,Bass Station II,Aftertouch,LFO 2 speed,,,,,,,0,76,,,,centered,Usage is for MSB,63: No effect
 Novation,Bass Station II,Mod wheel,Osc 2 pitch,,,,,,,0,78,,,,centered,Usage is for MSB,63: No effect
-Novation,Bass Station II,Velocity,Amp Env ,,112,,0,127,,,,,,,0-based,,
-Novation,Bass Station II,Velocity,Mod Env ,,113,,0,127,,,,,,,0-based,,
+Novation,Bass Station II,Velocity,Amp Env,,112,,0,127,,,,,,,0-based,,
+Novation,Bass Station II,Velocity,Mod Env,,113,,0,127,,,,,,,0-based,,

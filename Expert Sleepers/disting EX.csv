@@ -6,7 +6,7 @@ Expert Sleepers,disting EX,Matrix Mixer,Attenuverter 4,Applies an attenuverter t
 Expert Sleepers,disting EX,Matrix Mixer,Attenuverter 5,Applies an attenuverter to input 5,5,,0,127,95,,,,,,0-based,Neg. value -> CV inverted,
 Expert Sleepers,disting EX,Matrix Mixer,Attenuverter 6,Applies an attenuverter to input 6,6,,0,127,95,,,,,,0-based,Neg. value -> CV inverted,
 Expert Sleepers,disting EX,Matrix Mixer,Out 1 offset,Offset for Output 1,7,,0,127,64,,,,,,centered,Unit depends on 'Out offset type' parameter. Net offset in mV is shown to the right of the parameter value.,
-Expert Sleepers,disting EX,Matrix Mixer,Out 2 offset ,Offset for Output 2,8,,0,127,64,,,,,,centered,Unit depends on 'Out offset type' parameter. Net offset in mV is shown to the right of the parameter value.,
+Expert Sleepers,disting EX,Matrix Mixer,Out 2 offset,Offset for Output 2,8,,0,127,64,,,,,,centered,Unit depends on 'Out offset type' parameter. Net offset in mV is shown to the right of the parameter value.,
 Expert Sleepers,disting EX,Matrix Mixer,Out 3 offset,Offset for Output 3,9,,0,127,64,,,,,,centered,Unit depends on 'Out offset type' parameter. Net offset in mV is shown to the right of the parameter value.,
 Expert Sleepers,disting EX,Matrix Mixer,Out 4 offset,Offset for Output 4,10,,0,127,64,,,,,,centered,Unit depends on 'Out offset type' parameter. Net offset in mV is shown to the right of the parameter value.,
 Expert Sleepers,disting EX,Matrix Mixer,Out 1 offset type,Unit for Out 1offset,11,,0,127,21,,,,,,0-based,,0: Volts; 1: milliVolts; 2: semitones (multiples of 83 mV)
@@ -71,12 +71,12 @@ Expert Sleepers,disting EX,Augustus Loop,Attenuverter 5,Applies an attenuverter 
 Expert Sleepers,disting EX,Augustus Loop,Attenuverter 6,Applies an attenuverter to input 6,6,,0,127,95,,,,,,0-based,Neg. value -> CV inverted,
 Expert Sleepers,disting EX,Augustus Loop,Time (coarse),Sets the delay time in multiples of 100ms.,7,,0,127,3,,,,,,0-based,The coarse and fine delay times are added to produce the actual delay time,
 Expert Sleepers,disting EX,Augustus Loop,Time (fine),Sets an adjustment to the delay time in milliseconds,8,,0,127,64,,,,,,centered,The coarse and fine delay times are added to produce the actual delay time,
-Expert Sleepers,disting EX,Augustus Loop,Delay multiplier, A multiplier to apply to the delay time set by the parameters the tap tempo or the clock,9,,0,127,83,,,,,,0-based,,0~23: 1/64 multiplier to x16 multiplier
+Expert Sleepers,disting EX,Augustus Loop,Delay multiplier,A multiplier to apply to the delay time set by the parameters the tap tempo or the clock,9,,0,127,83,,,,,,0-based,,0~23: 1/64 multiplier to x16 multiplier
 Expert Sleepers,disting EX,Augustus Loop,Feedback,The master delay feedback amount,10,,0,127,64,,,,,,centered,,
 Expert Sleepers,disting EX,Augustus Loop,Dry gain,The amount of the dry signal to mix into the outputs,11,,0,127,110,,,,,,0-based,At '-40' there is no dry signal at all (it's actually –∞dB),
 Expert Sleepers,disting EX,Augustus Loop,Effect gain,The amount of the effect (delay) signal to mix into the outputs,12,,0,127,102,,,,,,0-based,At '-40' there is no dry signal at all (it's actually –∞dB),
 Expert Sleepers,disting EX,Augustus Loop,L-L Time,Scales the delay time of the left-to-left feedback path as a percentage of the master delay time,13,,0,127,127,,,,,,0-based,,
-Expert Sleepers,disting EX,Augustus Loop,L-R Time, Scales the delay time of the left-to-right feedback path as a percentage of the master delay time,14,,0,127,64,,,,,,centered,,
+Expert Sleepers,disting EX,Augustus Loop,L-R Time,Scales the delay time of the left-to-right feedback path as a percentage of the master delay time,14,,0,127,64,,,,,,centered,,
 Expert Sleepers,disting EX,Augustus Loop,R-L Time,Scales the delay time of the right-to-left feedback path as a percentage of the master delay time,15,,0,127,64,,,,,,centered,,
 Expert Sleepers,disting EX,Augustus Loop,R-R Time,Scales the delay time of the right-to-right feedback path as a percentage of the master delay time,16,,0,127,127,,,,,,0-based,,
 Expert Sleepers,disting EX,Augustus Loop,L-L Level,Scales the amount of the delayed left signal mixed into the left feedback path,17,,0,127,127,,,,,,0-based,,
@@ -106,7 +106,7 @@ Expert Sleepers,disting EX,Augustus Loop,FX Loop input,Sets the effects loop inp
 Expert Sleepers,disting EX,Augustus Loop,Clear loop,Instigates a rapid clear of the delay buffer (while maintaining passthrough of the dry signal),41,,0,127,0,,,,,,0-based,2 states: 0-63 and 64-127,
 Expert Sleepers,disting EX,Augustus Loop,Saturation enable,Enables the saturation processing (on the tape output before the filter),42,,0,127,127,,,,,,0-based,2 states only,
 Expert Sleepers,disting EX,Augustus Loop,Saturation,Sets the depth of the saturation effect by applying gain before the saturation waveshaper,43,,0,127,0,,,,,,0-based,,
-Expert Sleepers,disting EX,Augustus Loop,Saturation shape,Controls the shape of the saturation,44,,0,127,127,,,,,,0-based,At '127' the effect is that of soft saturation and clipping. At '0' the effect is of hard digital clipping,0~127: Hard digital clipping to soft saturation and clipping
+Expert Sleepers,disting EX,Augustus Loop,Saturation shape,Controls the shape of the saturation,44,,0,127,127,,,,,,0-based,"At 127, the effect is that of soft saturation and clipping. At 0 the effect is of hard digital clipping",0~127: Hard digital clipping to soft saturation and clipping
 Expert Sleepers,disting EX,Augustus Loop,Pitch LFO speed,Sets the speed of the pitch modulation LFO,45,,0,127,96,,,,,,0-based,,
 Expert Sleepers,disting EX,Augustus Loop,Pitch LFO depth,Sets the depth of pitch modulation by the LFO,46,,0,127,0,,,,,,0-based,,
 Expert Sleepers,disting EX,SD Multisample,Attenuverter 1,Applies an attenuverter to input 1,1,,0,127,95,,,,,,0-based,Neg. value -> CV inverted,
@@ -138,7 +138,7 @@ Expert Sleepers,disting EX,SD Multisample,Voice 6 detune,Sets a per-voice detune
 Expert Sleepers,disting EX,SD Multisample,Voice 7 detune,Sets a per-voice detune,27,,0,127,64,,,,,,centered,Example: to mimic an old polysynth with a badly tuned voice card,
 Expert Sleepers,disting EX,SD Multisample,Voice 8 detune,Sets a per-voice detune,28,,0,127,64,,,,,,centered,Example: to mimic an old polysynth with a badly tuned voice card,
 Expert Sleepers,disting EX,SD Multisample,Chord enable,Enables the chord generator function,29,,0,127,0,,,,,,0-based,The chord generator can be on or off globally or enabled per timbre,0: Off; 1: On; 2: Gate 1; 3: Gate 2; 4: Gate 3; 5: Gates 1&1; 6: Gates 1&3; 7: Gates 2&3
-Expert Sleepers,disting EX,SD Multisample,Chord key,"The key of the chord generator. 0 is C. 1 is C-sharp / D-flat, etc",30,,0,127,64,,,,,,centered,25 Steps.,
+Expert Sleepers,disting EX,SD Multisample,Chord key,"The key of the chord generator. 0 is C. 1 is C-sharp / D-flat, etc.",30,,0,127,64,,,,,,centered,25 Steps.,
 Expert Sleepers,disting EX,SD Multisample,Chord scale,The scale of the chord generator,31,,0,127,0,,,,,,0-based,,0: Major; 1: Natural Minor; 2: Dominant; 3: Fully diminished; 4: Dominant Dim; 5: Augmented; 6: Whole Tone; 7: Chromatic; 8: Harmonic Minor
 Expert Sleepers,disting EX,SD Multisample,Chord shape,The shape of the chord generator,32,,0,127,0,,,,,,0-based,,0: None;  1: 1 Octave;  2: 2 Octaves; 3: Root/Fifth; 4: Root/Fifth + 8ve; 5: Triad; 6: Triad + 8ve; 7: Sus4; 8: Sus4 + 8ve; 9: Sixth; 10: Sixth + 8ve; 11: Seventh; 12: Seventh + 8ve; 13: Ninth
 Expert Sleepers,disting EX,SD Multisample,Chord inversion,The chord inversion,33,,0,127,0,,,,,,0-based,4 Steps. For example the first inversion takes the first note of the chord and moves it an octave up so the lowest note in the chord is now the second (e.g. C E G becomes E G C),
@@ -160,7 +160,7 @@ Expert Sleepers,disting EX,SD Multisample,Min note 3,The lowest note to respond 
 Expert Sleepers,disting EX,SD Multisample,Max note 3,The highest note to respond to for timbre 3,49,,0,127,127,,,,,,0-based,,
 Expert Sleepers,disting EX,SD Multisample,Delay mode,The type of delay effect: 'Off'  'Stereo' or 'Ping-pong',51,,0,127,0,,,,,,0-based,3 Steps,
 Expert Sleepers,disting EX,SD Multisample,Output spread,Sets the amount by which voices are panned according to the 'Output mode',50,,0,127,64,,,,,,centered,,
-Expert Sleepers,disting EX,SD Multisample,Delay level, The level of the delay effect. '-40' is treated as –∞dB,52,,0,127,118,,,,,,0-based,,
+Expert Sleepers,disting EX,SD Multisample,Delay level,The level of the delay effect. '-40' is treated as –∞dB,52,,0,127,118,,,,,,0-based,,
 Expert Sleepers,disting EX,SD Multisample,Delay time,The delay time in milliseconds,53,,0,127,47,,,,,,0-based,Default: 500 ms,
 Expert Sleepers,disting EX,SD Multisample,Delay feedback,The delay feedback,54,,0,127,64,,,,,,centered,,
 Expert Sleepers,disting EX,SD Multisample,Tone bass,Bass EQ cut or boost,55,,0,127,64,,,,,,centered,Default: 0 dB,
@@ -260,14 +260,14 @@ Expert Sleepers,disting EX,WAV Recorder,Attenuverter 4,Applies an attenuverter t
 Expert Sleepers,disting EX,WAV Recorder,Attenuverter 5,Applies an attenuverter to the  input 5,5,,0,127,64,,,,,,centered,Negative=invert,
 Expert Sleepers,disting EX,WAV Recorder,Attenuverter 6,Applies an attenuverter to the  input 6,6,,0,127,64,,,,,,centered,Negative=invert,
 Expert Sleepers,disting EX,WAV Recorder,Input gain,The gain to apply to the inputs.,7,,0,127,0,,,,,,0-based,DB gain,
-Expert Sleepers,disting EX,WAV Recorder,Sample rate,The sample rate of the recording,8,,0,127,0,,,,,,0-based,2 Steps,0: 48kHz; 1: 96kHz
-Expert Sleepers,disting EX,WAV Recorder,Bit depth,The bit depth of the recording. ,9,,0,127,0,,,,,,0-based,2 Steps.,0: 16-bit; 1: 24-bit
+Expert Sleepers,disting EX,WAV Recorder,Sample rate,The sample rate of the recording.,8,,0,127,0,,,,,,0-based,2 Steps,0: 48kHz; 1: 96kHz
+Expert Sleepers,disting EX,WAV Recorder,Bit depth,The bit depth of the recording.,9,,0,127,0,,,,,,0-based,2 Steps.,0: 16-bit; 1: 24-bit
 Expert Sleepers,disting EX,WAV Recorder,Channels,The number of channels to record.,10,,0,127,26,,,,,,0-based,6 Steps,
 Expert Sleepers,disting EX,WAV Recorder,Rec CV Mode,Record CV control (input 5).,11,,0,127,0,,,,,,0-based,2 Steps. 0=trigger  1=gate.,0: Trigger; 1: Gate
 Expert Sleepers,disting EX,WAV Recorder,Play CV Mode,Play CV control (input 6).,12,,0,127,0,,,,,,0-based,2 Steps. 0=trigger  1=gate.,0: Trigger; 1: Gate
-Expert Sleepers,disting EX,WAV Recorder,Play As Loop,Playback mode. ,13,,0,127,0,,,,,,0-based,2 Steps. 0=one-shot  1=loop.,0: One-shot; 1: Loop
-Expert Sleepers,disting EX,WAV Recorder,Outputs 1/2,Output 1/2 mode: ,14,,0,127,42,,,,,,0-based,Thru/Play: Thru unless playback active. Play: playback if active else nothing.,0: Thru; 1: Thru/play; 2: Play
-Expert Sleepers,disting EX,WAV Recorder,Outputs 3/4,Output 3/4 mode:,15,,0,127,0,,,,,,0-based,Thru/Play: Thru unless playback active. Play: playback if active else nothing.,0: Thru; 1: Thru/play; 2: Play
+Expert Sleepers,disting EX,WAV Recorder,Play As Loop,Playback mode.,13,,0,127,0,,,,,,0-based,2 Steps. 0=one-shot  1=loop.,0: One-shot; 1: Loop
+Expert Sleepers,disting EX,WAV Recorder,Outputs 1/2,Output 1/2 mode.,14,,0,127,42,,,,,,0-based,Thru/Play: Thru unless playback active. Play: playback if active else nothing.,0: Thru; 1: Thru/play; 2: Play
+Expert Sleepers,disting EX,WAV Recorder,Outputs 3/4,Output 3/4 mode.,15,,0,127,0,,,,,,0-based,Thru/Play: Thru unless playback active. Play: playback if active else nothing.,0: Thru; 1: Thru/play; 2: Play
 Expert Sleepers,disting EX,WAV Recorder,AS Enable,Enables the auto-sampler.,16,,0,127,0,,,,,,0-based,2 Steps,
 Expert Sleepers,disting EX,WAV Recorder,AS Start Note,Auto-sampler start note (MIDI note number  48 is 0V for the CV output).,17,,0,127,21,,,,,,0-based,MIDI note number,
 Expert Sleepers,disting EX,WAV Recorder,AS End Note,Auto-sampler end note (MIDI note number).,18,,0,127,108,,,,,,0-based,MIDI note number,
@@ -285,7 +285,7 @@ Expert Sleepers,disting EX,WAV Recorder,Thru routing 4,Sets routing for input 4.
 Expert Sleepers,disting EX,WAV Recorder,Thru routing 5,Sets routing for input 5. 0=None  1-4=Out1-4   5=Out1+2   6=Out3+4.,30,,0,127,21,,,,,,0-based,7 Steps,
 Expert Sleepers,disting EX,WAV Recorder,Thru routing 6,Sets routing for input 6. 0=None  1-4=Out1-4   5=Out1+2   6=Out3+4.,31,,0,127,21,,,,,,0-based,7 Steps,
 Expert Sleepers,disting EX,WAV Recorder,AS Min velocity,Minimum velocity for auto-sampling with velocity switch layers.,32,,0,127,25,,,,,,0-based,MIDI velocity,
-Expert Sleepers,disting EX,WAV Recorder,AS Max velocity,Maximum velocity for auto-sampling with velocity switch layers ,33,,0,127,127,,,,,,0-based,MIDI velocity. fixed velocity if not using switches,
+Expert Sleepers,disting EX,WAV Recorder,AS Max velocity,Maximum velocity for auto-sampling with velocity switch layers.,33,,0,127,127,,,,,,0-based,MIDI velocity. fixed velocity if not using switches,
 Expert Sleepers,disting EX,WAV Recorder,Playback file,Chooses the file to be played when starting playback.,34,,0,,,,,,,,0-based,Select file,
 Expert Sleepers,disting EX,WAV Recorder,Record enable,If 0 recording cannot be started/stopped by pressing 'L'.,35,,0,127,127,,,,,,0-based,2 Steps,
 Expert Sleepers,disting EX,WAV Recorder,Playback enable,If 0 playback cannot be started/stopped by pressing 'R'.,36,,0,127,127,,,,,,0-based,2 Steps,
@@ -472,7 +472,7 @@ Expert Sleepers,disting EX,Dream Machine,Reverb mod speed,Sets reverb modulation
 Expert Sleepers,disting EX,Dream Machine,Reverb mod depth,Sets reverb modulation depth.,51,,0,127,32,,,,,,0-based,Internal range: 0 to 100.,
 Expert Sleepers,disting EX,Dream Machine,Reverb early gain,Sets early reflection gain.,52,,0,127,45,,,,,,0-based,Unit = dB. Internal range: -40 to 6.,
 Expert Sleepers,disting EX,Dream Machine,Reverb diff gain,Sets diffuse reflection gain.,53,,0,127,54,,,,,,0-based,Unit = dB. Internal range: -40 to 6.,
-Expert Sleepers,disting EX,Dream Machine,Transpose, Adjusts the tuning of all frequencies in (12-TET) semitone steps.,54,,0,127,64,,,,,,centered,Internal range: -60 to 60 semitones.,
+Expert Sleepers,disting EX,Dream Machine,Transpose,Adjusts the tuning of all frequencies in (12-TET) semitone steps.,54,,0,127,64,,,,,,centered,Internal range: -60 to 60 semitones.,
 Expert Sleepers,disting EX,Filter Bank,Attenuverter 1,Applies Attenuverter for input 1.,1,,0,127,95,,,,,,0-based,Negative value = CV will be inverted. Unit = %. Internal range: -200 to 200.,
 Expert Sleepers,disting EX,Filter Bank,Attenuverter 2,Applies Attenuverter for input 2.,2,,0,127,95,,,,,,0-based,Negative value = CV will be inverted. Unit = %. Internal range: -200 to 200.,
 Expert Sleepers,disting EX,Filter Bank,Attenuverter 3,Applies Attenuverter for input 3.,3,,0,127,95,,,,,,0-based,Negative value = CV will be inverted. Unit = %. Internal range: -200 to 200.,
@@ -501,14 +501,14 @@ Expert Sleepers,disting EX,Filter Bank,Gate 5,Gate for filter 5.,25,,0,127,0,,,,
 Expert Sleepers,disting EX,Filter Bank,Gate 6,Gate for filter 6.,26,,0,127,0,,,,,,0-based,Internal range: 0 to 1.,
 Expert Sleepers,disting EX,Filter Bank,Gate 7,Gate for filter 7.,27,,0,127,0,,,,,,0-based,Internal range: 0 to 1.,
 Expert Sleepers,disting EX,Filter Bank,Gate 8,Gate for filter 8.,28,,0,127,0,,,,,,0-based,Internal range: 0 to 1.,
-Expert Sleepers,disting EX,Filter Bank,Gain 1,Gain for filter 1.,29,,0,127,114,,,,,,0-based,'-40' = -∞dB. Unit = dB. Internal range: -40 to 6.,
-Expert Sleepers,disting EX,Filter Bank,Gain 2,Gain for filter 2.,30,,0,127,114,,,,,,0-based,'-40' = -∞dB. Unit = dB. Internal range: -40 to 6.,
-Expert Sleepers,disting EX,Filter Bank,Gain 3,Gain for filter 3.,31,,0,127,114,,,,,,0-based,'-40' = -∞dB. Unit = dB. Internal range: -40 to 6.,
-Expert Sleepers,disting EX,Filter Bank,Gain 4,Gain for filter 4.,32,,0,127,114,,,,,,0-based,'-40' = -∞dB. Unit = dB. Internal range: -40 to 6.,
-Expert Sleepers,disting EX,Filter Bank,Gain 5,Gain for filter 5.,33,,0,127,114,,,,,,0-based,'-40' = -∞dB. Unit = dB. Internal range: -40 to 6.,
-Expert Sleepers,disting EX,Filter Bank,Gain 6,Gain for filter 6.,34,,0,127,114,,,,,,0-based,'-40' = -∞dB. Unit = dB. Internal range: -40 to 6.,
-Expert Sleepers,disting EX,Filter Bank,Gain 7,Gain for filter 7.,35,,0,127,114,,,,,,0-based,'-40' = -∞dB. Unit = dB. Internal range: -40 to 6.,
-Expert Sleepers,disting EX,Filter Bank,Gain 8,Gain for filter 8.,36,,0,127,114,,,,,,0-based,'-40' = -∞dB. Unit = dB. Internal range: -40 to 6.,
+Expert Sleepers,disting EX,Filter Bank,Gain 1,Gain for filter 1.,29,,0,127,114,,,,,,0-based,-40 = -∞dB. Unit = dB. Internal range: -40 to 6.,
+Expert Sleepers,disting EX,Filter Bank,Gain 2,Gain for filter 2.,30,,0,127,114,,,,,,0-based,-40 = -∞dB. Unit = dB. Internal range: -40 to 6.,
+Expert Sleepers,disting EX,Filter Bank,Gain 3,Gain for filter 3.,31,,0,127,114,,,,,,0-based,-40 = -∞dB. Unit = dB. Internal range: -40 to 6.,
+Expert Sleepers,disting EX,Filter Bank,Gain 4,Gain for filter 4.,32,,0,127,114,,,,,,0-based,-40 = -∞dB. Unit = dB. Internal range: -40 to 6.,
+Expert Sleepers,disting EX,Filter Bank,Gain 5,Gain for filter 5.,33,,0,127,114,,,,,,0-based,-40 = -∞dB. Unit = dB. Internal range: -40 to 6.,
+Expert Sleepers,disting EX,Filter Bank,Gain 6,Gain for filter 6.,34,,0,127,114,,,,,,0-based,-40 = -∞dB. Unit = dB. Internal range: -40 to 6.,
+Expert Sleepers,disting EX,Filter Bank,Gain 7,Gain for filter 7.,35,,0,127,114,,,,,,0-based,-40 = -∞dB. Unit = dB. Internal range: -40 to 6.,
+Expert Sleepers,disting EX,Filter Bank,Gain 8,Gain for filter 8.,36,,0,127,114,,,,,,0-based,-40 = -∞dB. Unit = dB. Internal range: -40 to 6.,
 Expert Sleepers,disting EX,Filter Bank,VCA input 1,VCA input for filter 1.,37,,0,127,0,,,,,,0-based,0 for 'None'. Internal range: 0 to 6.,
 Expert Sleepers,disting EX,Filter Bank,VCA input 2,VCA input for filter 2.,38,,0,127,0,,,,,,0-based,0 for 'None'. Internal range: 0 to 6.,
 Expert Sleepers,disting EX,Filter Bank,VCA input 3,VCA input for filter 3.,39,,0,127,0,,,,,,0-based,0 for 'None'. Internal range: 0 to 6.,
@@ -539,7 +539,7 @@ Expert Sleepers,disting EX,Poly Wavetable,Attack time,Envelope 1 attack time.,12
 Expert Sleepers,disting EX,Poly Wavetable,Decay time,Envelope 1 decay time.,13,,0,127,60,,,,,,0-based,Range 20ms-15s. Internal range: 0 to 127.,
 Expert Sleepers,disting EX,Poly Wavetable,Sustain level,Envelope 1 sustain level.,14,,0,127,80,,,,,,0-based,Internal range: 0 to 127.,
 Expert Sleepers,disting EX,Poly Wavetable,Release time,Envelope 1 release time.,15,,0,127,60,,,,,,0-based,Range 10ms-30s. Internal range: 0 to 127.,
-Expert Sleepers,disting EX,Poly Wavetable,Attack shape,Envelope 1 attack shape.,16,,0,127,64,,,,,,centered,'0' is highly exponential. '127' is almost linear. Internal range: 0 to 127.,
+Expert Sleepers,disting EX,Poly Wavetable,Attack shape,Envelope 1 attack shape.,16,,0,127,64,,,,,,centered,0 is highly exponential. 127 is almost linear. Internal range: 0 to 127.,
 Expert Sleepers,disting EX,Poly Wavetable,Decay shape,Envelope 1 decay & release shape.,17,,0,127,64,,,,,,centered,Internal range: 0 to 127.,
 Expert Sleepers,disting EX,Poly Wavetable,Attack time 2,Envelope 2 attack time.,18,,0,127,60,,,,,,0-based,Range 1ms-15s. Internal range: 0 to 127.,0~127: 1ms to 15s
 Expert Sleepers,disting EX,Poly Wavetable,Decay time 2,Envelope 2 decay time.,19,,0,127,70,,,,,,0-based,Range 20ms-15s. Internal range: 0 to 127.,0~127: 20ms to 15s
@@ -582,7 +582,7 @@ Expert Sleepers,disting EX,Poly Wavetable,Scala/MTS,Sets the Scala scale or MTS 
 Expert Sleepers,disting EX,Poly Wavetable,Scala KBM,Sets the Scala keyboard map to use.,56,,0,127,0,,,,,,0-based,See the manual. Internal range: 0 to 127.,
 Expert Sleepers,disting EX,Poly Wavetable,Chorus mode,Engages the chorus effect.,57,,0,127,0,,,,,,0-based,0 for 'off'. Internal range: 0 to 2.,
 Expert Sleepers,disting EX,Poly Wavetable,Delay mode,The type of delay effect.,58,,0,127,0,,,,,,0-based,,0: Off; 1: Stereo; 2: Ping-pong
-Expert Sleepers,disting EX,Poly Wavetable,Delay level,The level of the delay effect.,59,,0,127,106,,,,,,0-based,'-40' is treated as –∞dB. Unit = dB. Internal range: -40 to 0.,
+Expert Sleepers,disting EX,Poly Wavetable,Delay level,The level of the delay effect.,59,,0,127,106,,,,,,0-based,-40 is treated as –∞dB. Unit = dB. Internal range: -40 to 0.,
 Expert Sleepers,disting EX,Poly Wavetable,Delay time,The delay time in milliseconds.,60,,0,127,6,,,,,,0-based,The delay time if following MIDI clock. Internal range: 1 to 10000 or 1 to 18.,
 Expert Sleepers,disting EX,Poly Wavetable,Delay feedback,The delay feedback.,61,,0,127,64,,,,,,centered,Unit = %. Internal range: 0 to 100.,
 Expert Sleepers,disting EX,Poly Wavetable,Unison,The number of voices to play simultaneously.,62,,0,127,0,,,,,,0-based,For each note triggered. Internal range: 1 to 8.,
@@ -684,7 +684,7 @@ Expert Sleepers,disting EX,Multi FX,Attenuverter 4 (%),Attenuverter for input 4,
 Expert Sleepers,disting EX,Multi FX,Attenuverter 5 (%),Attenuverter for input 5,5,,0,127,95,,,,,,0-based,Internal range: -200 to 200. Negative values invert CV,
 Expert Sleepers,disting EX,Multi FX,Attenuverter 6 (%),Attenuverter for input 6,6,,0,127,95,,,,,,0-based,Internal range: -200 to 200. Negative values invert CV,
 Expert Sleepers,disting EX,Multi FX,VSR (ST),Sets the variable sample rate in semitones,7,,0,127,64,,,,,,centered,Note that the rate can only go downwards - positive values here will only have an effect if a negative CV is being applied,
-Expert Sleepers,disting EX,Multi FX,VSR attenuator (%),Attenuator for the VSR CV input ,8,,0,127,127,,,,,,0-based,You may need both this and the relevant attenuverter above to scale down a full-range LFO to a subtle pitch modulation,
+Expert Sleepers,disting EX,Multi FX,VSR attenuator (%),Attenuator for the VSR CV input,8,,0,127,127,,,,,,0-based,You may need both this and the relevant attenuverter above to scale down a full-range LFO to a subtle pitch modulation,
 Expert Sleepers,disting EX,Multi FX,Quantize,Sets the scale to quantize the VSR to,9,,0,127,0,,,,,,0-based,,0: Off; 1: On
 Expert Sleepers,disting EX,Multi FX,Dry routing,Sets the dry routing to Pre-EQ or Post-EQ,10,,0,127,0,,,,,,0-based,,0: Pre-EQ; 1: Post-EQ
 Expert Sleepers,disting EX,Multi FX,Dry gain (dB),Level of the dry signal mixed into the output,11,,0,127,102,,,,,,0-based,Internal range: -40 to 6,
@@ -706,7 +706,7 @@ Expert Sleepers,disting EX,Multi FX,Pitch input 1,Chooses one input to the pitch
 Expert Sleepers,disting EX,Multi FX,Pitch input 2,Chooses the other input to the pitch effect for Pitch - Chorus,27,,0,127,64,,,,,,centered,,0: Pre-EQ; 1: Post-EQ; 2: Pitch; 3: Delay; 4:Reverb
 Expert Sleepers,disting EX,Multi FX,Pitch input mix (%),Sets the mix between pitch effect inputs  Reverb <-> Post-EQ,28,,0,127,0,,,,,,0-based,-100 is all input 1 100 is all input 2,
 Expert Sleepers,disting EX,Multi FX,Pitch effect,Chooses the pitch effect chorus phaser or pitch shift,29,,0,127,0,,,,,,0-based,,0: Chorus; 1: Phaser; 2:Shift
-Expert Sleepers,disting EX,Multi FX,Pitch blend (%),Sets the mix at the pitch effect output between the input signal and the processed signal ,30,,0,127,127,,,,,,0-based,Negative values crossfade between the input and processed signals; positive values add an amount of the processed signal to the input signal,
+Expert Sleepers,disting EX,Multi FX,Pitch blend (%),Sets the mix at the pitch effect output between the input signal and the processed signal,30,,0,127,127,,,,,,0-based,Negative values crossfade between the input and processed signals; positive values add an amount of the processed signal to the input signal,
 Expert Sleepers,disting EX,Multi FX,Pitch feedback (%),Internal feedback of the pitch effect,31,,0,127,63,,,,,,centered,Applies to all three effect modes though the effect is different for each,
 Expert Sleepers,disting EX,Multi FX,Chorus delay / Phaser centre (0.1ms),Delay time of the chorus effect OR the centre frequency of the phaser effect,32,,0,127,86,,,,,,0-based,Internal range: 0.1 ms to 85 ms,
 Expert Sleepers,disting EX,Multi FX,Chorus speed / Phaser speed (Hz),LFO speed of the chorus or phaser effect,33,,0,127,25,,,,,,0-based,Internal range: 0.01 Hz to 2 Hz,
@@ -799,7 +799,7 @@ Expert Sleepers,disting EX,Poly Exciter,Scala KBM,Sets the Scala keyboard map to
 Expert Sleepers,disting EX,Poly Exciter,Low pass filter,Sets the frequency of a first-order low pass filter applied to each note,50,,0,127,126,,,,,,0-based,Internal Range: 30 Hz to 12000 Hz,
 Expert Sleepers,disting EX,Poly Exciter,Chorus mode,Engages the chorus effect or 0 for off,51,,0,127,0,,,,,,0-based,,0: Off; 1: Mode 1; 2: Mode 2
 Expert Sleepers,disting EX,Poly Exciter,Delay mode,Type of delay effect,52,,0,127,0,,,,,,0-based,,0: Off; 1: Stereo; 2: Ping-Pong
-Expert Sleepers,disting EX,Poly Exciter,Delay level (dB),Level of the delay effect ,53,,0,127,92,,,,,,0-based,Internal Range: -40 to 0. -40 is treated as ∞dB,
+Expert Sleepers,disting EX,Poly Exciter,Delay level (dB),Level of the delay effect,53,,0,127,92,,,,,,0-based,Internal Range: -40 to 0. -40 is treated as ∞dB,
 Expert Sleepers,disting EX,Poly Exciter,Delay time (ms),Delay time in milliseconds,54,,0,127,6,,,,,,0-based,Internal Range: 1 ms to 10 sec,
 Expert Sleepers,disting EX,Poly Exciter,Delay feedback (%),Delay feedback,55,,0,127,63,,,,,,centered,Internal Range: 0 to 100,
 Expert Sleepers,disting EX,Poly Exciter,Unison,Number of voices to play simultaneously for each note triggered,56,,0,127,0,,,,,,0-based,Internal Range: 1 to 8,
@@ -885,7 +885,7 @@ Expert Sleepers,disting EX,Quad Envelope,Scale 3,Scale for envelope 3 in units o
 Expert Sleepers,disting EX,Quad Envelope,Offset 3,DC offset for envelope 3 in units of 100mV,65,,0,127,63,,,,,,centered,Internal Range: -100 to 100. The full scale is ±10V,
 Expert Sleepers,disting EX,Quad Envelope,Vel -> scale 3 (%),Amount by which the trigger velocity affects the envelope 3 scale,66,,0,127,127,,,,,,0-based,Internal Range: 0 to 100,
 Expert Sleepers,disting EX,Quad Envelope,Vel -> attack 3 (%),Amount by which the trigger velocity affects the envelope 3 attack time,67,,0,127,63,,,,,,centered,Internal Range: -100 to 100,
-Expert Sleepers,disting EX,Quad Envelope,Inputs 3,Choose the trigger/gate input and the VCA input for envelope 3,68,,0,127,3,,,,,,0-based,"Note that if no trigger input is specified (e.g. 'Trig -'' or 'Trg - VCA 2'), the envelope can still be triggered by MIDI or by its clock input.",
+Expert Sleepers,disting EX,Quad Envelope,Inputs 3,Choose the trigger/gate input and the VCA input for envelope 3,68,,0,127,3,,,,,,0-based,"Note that if no trigger input is specified (e.g. 'Trig -' or 'Trg - VCA 2'), the envelope can still be triggered by MIDI or by its clock input.",
 Expert Sleepers,disting EX,Quad Envelope,Shape 3,Which Env 1 2 4 shapes to use for envelope 3,69,,0,127,0,,,,,,0-based,Internal Range: 1 to 4,
 Expert Sleepers,disting EX,Quad Envelope,Trigger mode 4,Trigger mode for envelope 4,70,,0,127,0,,,,,,0-based,,0: Gate; 1: Trigger; 2: Gated loop; 3: Looping; 4: Trigger by clock; 5: Trigger no retrigger
 Expert Sleepers,disting EX,Quad Envelope,Clock input 4,Clock input for envelope 4,71,,0,127,26,,,,,,0-based,Internal Range: 0 to 24. The 'Clock inputs' parameter works in conjunction with 'Clock mode'. You must specify a clock input or no clock mode will work. The options are 'None' - one of the module's six inputs or a MIDI clock divisor,

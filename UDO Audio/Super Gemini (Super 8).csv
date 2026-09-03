@@ -101,7 +101,7 @@ UDO Audio,Super Gemini (Super 8),Mixer,Oscillator mix,,37,,0,127,,,,,,,0-based,,
 UDO Audio,Super Gemini (Super 8),Special,Super mode,,24,,0,85,,,,,,,0-based,,0: Off; 43: 1/2; 85: On
 UDO Audio,Super Gemini (Super 8),Special,Manual mode,,59,,64,64,,,,,,,0-based,,64: On
 UDO Audio,Super Gemini (Super 8),Special,Binaural mode,,80,,0,64,,,,,,,0-based,,0: Off; 64: On
-UDO Audio,Super Gemini (Super 8),Special,Lower layer detune,,108,,0,127,,,,,,,0-based,"On Super 8, CC 108 sets layer detune. ",
+UDO Audio,Super Gemini (Super 8),Special,Lower layer detune,,108,,0,127,,,,,,,0-based,"On Super 8, CC 108 sets layer detune.",
 UDO Audio,Super Gemini (Super 8),Voicing,Voice assign mode,,78,,0,96,,,,,,,0-based,,0: Solo; 32: Legato; 64: Poly 1; 96: Poly 2
 UDO Audio,Super Gemini (Super 8),Voicing,Unison size,,79,,1,4,,,,,,,0-based,,1: Half of all available voices; 2: All available voices; 3: Octave; 4: Fifth + octave
 UDO Audio,Super Gemini (Super 8),Voicing,Poly mode on,,127,,0,0,,,,,,,0-based,,
