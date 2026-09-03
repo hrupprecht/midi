@@ -21,10 +21,10 @@ Vermona,meloDICER,Melody,Note Probability A#,Probability for note A# to appear i
 Vermona,meloDICER,Melody,Note Probability B,Probability for note B to appear in the pattern,31,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,
 Vermona,meloDICER,Dice,Dice Rhythm On/Off,Toggles dice-mode for the rhythm section on or off,73,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,0-63: Off; 64-127: On
 Vermona,meloDICER,Dice,Dice Melody On/Off,Toggles dice-mode for the melody section on or off,74,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,0-63: Off; 64-127: On
-Vermona,meloDICER,Dice,Re-Dice Rhythm,Triggers a new random dice roll for the rhythm section (any value),75,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,Any value triggers re-dice
-Vermona,meloDICER,Dice,Re-Dice Melody,Triggers a new random dice roll for the melody section (any value),76,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,Any value triggers re-dice
+Vermona,meloDICER,Dice,Re-Dice Rhythm,Triggers a new random dice roll for the rhythm section (any value),75,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,
+Vermona,meloDICER,Dice,Re-Dice Melody,Triggers a new random dice roll for the melody section (any value),76,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,
 Vermona,meloDICER,Pattern,Lock,Activates lock-mode; decouples controls from the stochastic engine,78,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,0-63: Off; 64-127: On
 Vermona,meloDICER,Pattern,First Step,Sets the first step of the pattern (8 values per step),85,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,
 Vermona,meloDICER,Pattern,Last Step,Sets the last step of the pattern (8 values per step),86,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,
 Vermona,meloDICER,Dynamics,Accent Probability,Probability for notes to play at maximum velocity (127),87,,0,127,,,,,,,0-based,Requires MEX3 module for MIDI,
-Vermona,meloDICER,Dynamics,Standard Velocity,Sets the standard MIDI note velocity,88,,20,100,,,,,,,0-based,Requires MEX3 module for MIDI,Range: 20-100
+Vermona,meloDICER,Dynamics,Standard Velocity,Sets the standard MIDI note velocity,88,,20,100,,,,,,,0-based,Requires MEX3 module for MIDI,
